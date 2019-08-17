@@ -10,6 +10,7 @@ $(document).ready(function() {
 
     var result;
 
+
     if (q1 && q2 === "yes")
       result = ("Python");
     else if (q3 && q4 === "yes")
@@ -18,6 +19,7 @@ $(document).ready(function() {
       result = ("Ruby");
 
 
-    $("#answer").text(result);
+  $("#answer").text(result);
+  $("#survey-results").show();
   });
 });

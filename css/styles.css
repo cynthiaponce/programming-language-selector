@@ -4,4 +4,17 @@
 
 #survey-results {
   display: none;
+  color: red;
+}
+
+body {
+  background-color: #a4aba6;
+
+
+#answer {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
 }
