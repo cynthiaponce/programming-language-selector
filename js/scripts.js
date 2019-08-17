@@ -17,6 +17,6 @@ $(document).ready(function() {
     var q5 = $("input#question5").val();
   });
     var result;
-    
+
 
 });
