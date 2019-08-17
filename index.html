@@ -14,51 +14,77 @@
     <h1>Programming Language Suggester</h1>
     <p>Interested in technology but don't know where to start? Fill out our survey and find out which programming language is right for you.</p>
     <br>
+    <h5>**Copy and paste one answer for each box</h5>
+    <br>
       <form id="survey">
+      <div class="form-group">
         <label for="question1">Question #1: Which of these do you prefer?</label>
-        <select class="form-control">
-          <option selected disabled hidden>Choose here</option>
-          <option>Snakes</option>
-          <option>Precious Gems</option>
-          <option>Coffee</option>
-        </select>
+          <ul>
+          <li class="python">Snakes</li>
+          <li class="ruby">Precious Gems</li>
+          <li class="javascript">Coffee</li>
+          </ul>
+        <input id="question1" class="form-control" type="text">
+      </div>
         <br>
         <br>
+      <div class="form-group">
         <label for="question2">Question #2: Would you rather...?</label>
-        <select class="form-control">
-          <option selected disabled hidden>Choose here</option>
-          <option>Create/design websites with an awesome user interface</option>
-          <option>Analyze/manipulate data sets to find trends</option>
-          <option>Work on websites "behind the scenes" and focus on functionality</option>
-        </select>
+          <ul>
+          <li class="javascript">Create/design websites with an awesome user interface</li>
+          <li class="python">Analyze/manipulate data sets to find trends</li>
+          <li class="ruby">Work on websites "behind the scenes" and focus on functionality</li>
+          </ul>
+        <input id="question2" class="form-control" type="text">
+      </div>
         <br>
         <br>
-        <label for="question3">Question #3:</label>
-        <select class="form-control">
-          <option selected disabled hidden>Choose here</option>
-          <option></option>
-          <option></option>
-          <option></option>
-        </select>
+      <div class="form-group">
+        <label for="question3">Question #3: Do you like to...?</label>
+          <ul>
+            <li class="javascript">Dance</li>
+            <li class="python">Read</li>
+            <li class="ruby">Play Video Games</li>
+          </ul>
+        <input id="question3" class="form-control" type="text">
+      </div>
         <br>
         <br>
-        <label for="question4">Question #4:</label>
-        <select class="form-control">
-          <option selected disabled hidden>Choose here</option>
-          <option></option>
-          <option></option>
-          <option></option>
-        </select>
+        <div class="form-group">
+          <label for="question4">Question #4: Where would you travel to?</label>
+            <ul>
+              <li class="ruby">Denmark</li>
+              <li class="javascript">Singapore</li>
+              <li class="python">New Zealand</li>
+            </ul>
+          <input id="question4" class="form-control" type="text">
+        </div>
         <br>
         <br>
-        <label for="question5">Question #5:</label>
-        <select class="form-control">
-          <option selected disabled hidden>Choose here</option>
-          <option></option>
-          <option></option>
-          <option></option>
-        </select>
+        <div class="form-group">
+          <label for="question5">Question #5: Which food do you prefer?</label>
+            <ul>
+              <li class="python">Ramen</li>
+              <li class="ruby">Sushi</li>
+              <li class="javascript">Tonkatsu</li>
+            </ul>
+          <input id="question5" class="form-control" type="text">
+          <br>
+          <button type="submit" class="btn btn-danger">Submit</button>
+        </div>
     </form>
+    <br>
+    <div class="survey-results">
+      <p>Thanks for filling out the survey!
+          Based on your responses, the best language for you to learn is:
+          <span id="python"></span> <span id="ruby"></span> <span id="javascript"></span>!!
+        </p>
+
+
+
+
+
+
     </div>
   </body>
 </html>

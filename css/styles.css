@@ -1,3 +1,7 @@
 .form-control {
   width: 200px;
 }
+
+.survey-results {
+  display: none;
+}
